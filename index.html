@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Tailwind Starter</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Background Container -->
+  <div class="flex items-center justify-center h-screen bg-zinc-700 ">
+    <!-- Card -->
+    <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+      <div class="flex flex-col md:flex-row rounded-l-xl">
+
+        <img  class="object-fit h-80 rounded-xl md:h-64  md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-300 " src="images/image.jpg" alt="">
+        <div class="p-6 md:p-12">
+          <h2 class="font-serif text-xl font-medium text-white text-center " >Get diet and fitness tips in your inbox</h2>
+          <p class="text-xs my-4 text-white  text-center leading-5 tracking-wide  max-w-xs md:text-left">Eat better and exercise better . Sign up for the Diet&Fitness newsletter</p>
+        <div class="flex flex-col space-y-4 mt-5 md:space-x-3 md:flex-row md:space-y-0 ">
+          <input class="p-2 px-4 text-center bg-zinc-800 border border-zinc-500 placeholder:text-s md:placeholder:text-left md:text-left md:text-white " type="text" placeholder="Enter your email">
+          <button class="px-5 py-4 bg-lime-500 rounded-md text-zinc-800 text-s
+          hover:bg-lime-700 hover:text-white ">Subscribe</button>
+          
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  </body>
+</html>
